@@ -8,16 +8,16 @@
     <el-card>
       <div class='tips'>酷我音乐</div>
       <div class="teach">
-        <span>"我的"-"做任务赚钱"</span><br>
+        <span>"我的"-"做任务赚钱"</span>
         <span>
           <img src="../../assets/img/kuwo.png">
-        </span><br>
+        </span>
         <span>抓取链接示例: "https://integralapi.kuwo.cn/api/v1/online/sign/v1/earningSignIn/everydaymusic/doListen?xxxxxxxxxxxxxxxxxxx"</span>
       </div>
       <el-form :model="KuWoForm"
                :rules="KuWoRules"
                ref="KuWoRef"
-               label-width="70px">
+               label-width="128px">
         <el-form-item label="Ids"
                       prop="ids">
           <el-input v-model="KuWoForm.ids"
@@ -82,6 +82,11 @@ export default {
 
 .teach {
   margin-bottom: 25px;
+}
+
+span {
+  padding: 5px 0;
+  display: block;
 }
 
 span img {

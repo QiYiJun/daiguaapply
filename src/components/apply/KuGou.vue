@@ -11,7 +11,7 @@
       <el-form :model="KuGouForm"
                :rules="KuGouRules"
                ref="KuGouRef"
-               label-width="70px"
+               label-width="128px"
                disabled>
         <el-form-item label="Cookie"
                       prop="cookie">

@@ -14,7 +14,8 @@ import {
   Button,
   Breadcrumb,
   BreadcrumbItem,
-  Card
+  Card,
+  Dialog
 } from 'element-ui'
 
 Vue.use(Container)
@@ -32,3 +33,4 @@ Vue.use(Button)
 Vue.use(Breadcrumb)
 Vue.use(BreadcrumbItem)
 Vue.use(Card)
+Vue.use(Dialog)
