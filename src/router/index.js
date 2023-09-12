@@ -8,6 +8,7 @@ import GangBeng from 'components/read/GangBeng.vue'
 import XiaoYueYue from 'components/read/XiaoYueYue.vue'
 import RenRenBang from 'components/read/RenRenBang.vue'
 import KraftHeinz from 'components/uniapp/KraftHeinz.vue'
+import SkyColor from 'components/uniapp/SkyColor.vue'
 
 Vue.use(VueRouter)
 
@@ -48,6 +49,10 @@ const routes = [
       {
         path: '/kraft',
         component: KraftHeinz
+      },
+      {
+        path: '/skycolor',
+        component: SkyColor
       }
     ]
   }
