@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import MyHome from 'views/home/MyHome.vue'
 import Welcome from 'components/Welcome.vue'
 import KuGou from 'components/apply/KuGou.vue'
+import KuWo from 'components/apply/KuWo.vue'
 
 Vue.use(VueRouter)
 
@@ -23,6 +24,10 @@ const routes = [
       {
         path: '/kugou',
         component: KuGou
+      },
+      {
+        path: '/kuwo',
+        component: KuWo
       }
     ]
   }

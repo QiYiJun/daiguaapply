@@ -8,14 +8,14 @@
     <el-card>
       <div class='tips'>酷狗音乐脚本还在修改当中, 尚未能投入呆瓜Apply</div>
       <div class="teach">这里是教程-还没写-未能正常使用</div>
-      <el-form :model="KugouForm"
-               :rules="KugouRules"
-               ref="KugouRef"
+      <el-form :model="KuGouForm"
+               :rules="KuGouRules"
+               ref="KuGouRef"
                label-width="70px"
                disabled>
         <el-form-item label="Cookie"
                       prop="cookie">
-          <el-input v-model="KugouForm.cookie"></el-input>
+          <el-input v-model="KuGouForm.cookie"></el-input>
         </el-form-item>
         <el-form-item>
           <el-button type="primary">立即创建</el-button>
@@ -31,10 +31,10 @@ export default {
   name: 'KuGou',
   data () {
     return {
-      KugouForm: {
+      KuGouForm: {
         cookie: ''
       },
-      KugouRules: {
+      KuGouRules: {
         cookie: [
           {
             required: true,
