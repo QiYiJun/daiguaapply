@@ -110,6 +110,10 @@ export default {
 </script>
 
 <style scoped>
+.el-input {
+  width: 60%;
+}
+
 .tips {
   font-weight: bold;
   font-size: 20px;

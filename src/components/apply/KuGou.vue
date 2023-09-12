@@ -52,7 +52,7 @@ export default {
 
 <style scoped>
 .el-input {
-  width: 50%;
+  width: 60%;
 }
 
 .tips {

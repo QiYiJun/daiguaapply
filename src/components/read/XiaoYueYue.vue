@@ -119,6 +119,10 @@ export default {
 </script>
 
 <style scoped>
+.el-input {
+  width: 60%;
+}
+
 .tips {
   margin-bottom: 25px;
 }
