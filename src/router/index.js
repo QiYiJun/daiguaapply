@@ -5,6 +5,7 @@ import Welcome from 'components/Welcome.vue'
 import KuGou from 'components/apply/KuGou.vue'
 import KuWo from 'components/apply/KuWo.vue'
 import GangBeng from 'components/read/GangBeng.vue'
+import XiaoYueYue from 'components/read/XiaoYueYue.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,10 @@ const routes = [
       {
         path: '/gangbeng',
         component: GangBeng
+      },
+      {
+        path: '/xiaoyueyue',
+        component: XiaoYueYue
       }
     ]
   }
