@@ -5,7 +5,7 @@
 
 您可以找我要真正已经上线的网页链接, 按需求进行代挂
 
-如果您信不过我, 也可以自己去下载代码和搭建环境 [wangquanfugui233-GitHub]("https://github.com/wangquanfugui233/wool/tree/master")
+如果您信不过我, 也可以自己去下载代码和搭建环境 [wangquanfugui233-GitHub](https://github.com/wangquanfugui233/wool/tree/master)
 
 ## 此外这是您需要注意的6点, 这很重要
 ### 1.【怕黑号的, 真诚的, 恳请您们不要用】
